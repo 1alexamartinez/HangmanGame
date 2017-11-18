@@ -1,0 +1,42 @@
+.header{
+	color: gold;
+	text-align: center;
+	font-family: "helvetica";
+	font-size:50px;
+}
+.header2{
+	color: gold;
+	font-size: 25px;
+	}
+}
+h2{
+	color:gold;
+	font-family: "helvetica";
+}
+h3{
+	color:gold;
+	font-family: "helvetica";
+}
+p{
+	color:gold;
+}
+
+  
+
+
+
+ 
+
+
+var wins = 0;
+    var losses = 0;
+    var ties = 0; 
+
+
+    //user choices
+    document.onkeyup = function(event) {
+
+    // variable users guesses
+    var userGuess = event.key;
+
+
