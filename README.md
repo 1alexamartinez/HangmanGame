@@ -9,6 +9,9 @@ This is a Harry Potter themed hangman game built in JavaScript. Object-oriented 
 
 3.As the user guesses the correct letters, the word will reveal itself: H_rr_ Pott_r.
 
+
+After the user wins/loses the game will automatically choose another word and make the user play it.
+
 # Key
 
 Wins: (# of times user guessed the word correctly).
@@ -17,13 +20,15 @@ Number of Guesses Remaining: (# of guesses remaining for the user).
 
 Letters Already Guessed: (Letters the user has guessed, displayed like U Z Y M).
 
-After the user wins/loses the game will automatically choose another word and make the user play it.
-
 # Technologies used
 HTML5
+
 CSS3
+
 Bootstrap
+
 JavaScript
+
 jQuery
 # Prerequisites
 - Bootstrap: visit https://www.bootstrapcdn.com/ and link in html
